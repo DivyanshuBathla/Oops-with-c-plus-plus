@@ -27,7 +27,7 @@ class C : virtual public A{
 };
 
 class D : public B, public C{
-	//contains two display() functions, how?
+	//using virtual class concept solving the diamond problem
 	public:
 	void display3()
 	{
