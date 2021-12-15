@@ -27,7 +27,7 @@ class C : public A{
 };
 
 class D : public B, public C{
-	//contains two display() functions, how?
+	
 	public:
 	void display3()
 	{
